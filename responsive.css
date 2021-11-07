@@ -1,0 +1,265 @@
+@media only screen and (min-width:800px) and (max-width:1450px){
+    /* education section */
+    .education-section{
+        margin: 40px 40px;
+    }
+    .illustration{
+        width: 100% ;
+        position: relative;
+        top: 13%;
+    }
+    .edu-content{
+        grid-template-columns:50% 30% ;
+    }
+    .edu-content{
+        display: grid;
+        grid-template-columns:50% 30% ;
+        grid-gap: 80px;
+    }
+    /* header section */
+    
+    .logo {
+        margin-left: 5rem;
+        margin-top: 20px;
+        margin-right: 2rem;
+    }
+    .text{
+        margin-left: 30px;
+    }
+    .heading-2{
+        font-weight: 700;
+        font-size:3rem;
+    }
+    .heading-1{
+        font-size: 2.5rem;
+    }
+    .heading-3{
+        font-size: 2.5rem;
+    }
+    .heading{
+        margin: 12rem 7rem;
+    }    
+    
+    
+}
+
+@media only screen and (min-width:800px) and (max-width:1200px){
+    /* about section */
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .head-about{
+        margin: 4rem 5rem;
+    }
+    .profile{
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    .info{
+        margin-top: 10px;
+        margin-left: 70px;
+        font-size: 0.7rem;
+        text-align: center;
+        padding: 20px 200px;
+        margin-bottom: 4rem;
+        
+    }
+    .info h1{
+        font-size: 1.5rem;
+        margin: 10px -64px;
+    }
+    .info span{
+        color:rgb(243 97 6) ;
+    }
+    .container2{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px){
+
+
+    /* navbar */
+
+
+    .icon{
+        display: inline-block;
+    }
+    .content{
+        background-color: rgb(243,97,6);
+        /* width: 100%; */
+        margin: 20px 10px;
+        /* position: absolute;
+        top: 50%; */
+        display: none;
+        position: absolute;
+        top: 100%;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items: center;
+        margin: 10px;
+    }
+    .illustration{
+        display: none;
+    }
+
+    /* about section */
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .head-about{
+        margin: 4rem 5rem;
+    }
+    .profile{
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    .info{
+        margin-top: 10px;
+        margin-left: 70px;
+        font-size: 0.7rem;
+        text-align: center;
+        padding: 20px 100px;
+        margin-bottom: 4rem;
+        
+    }
+    .info h1{
+        font-size: 1.5rem;
+        margin: 10px -64px;
+    }
+    .info span{
+        color:rgb(243 97 6) ;
+    }
+    .container2{
+        width: 100%;
+    }
+
+    /* Header section */
+
+    .logo {
+        /* margin-left: 5rem; */
+        margin: 20px auto;
+
+        /* margin-right: 2rem; */
+    }
+    .text{
+        margin-left: 30px;
+    }
+    .heading-1{
+        font-size: 2.5rem;
+    }
+    .heading-2{
+        font-weight: 700;
+        font-size:3rem;
+    }
+    .heading-3{
+        font-size: 2.5rem;
+    }
+    .heading{
+        margin: 14rem 3.6rem;
+        line-height: 4rem;
+    }  
+
+    /* Education section */
+
+
+    .edu-content{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .education-section{
+        /* margin: 51px 78px 19px 78px; */
+    }
+    .college{
+        text-align: center;
+    }
+    .study li{
+        text-align: center;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .btn{
+        font-size: 0.5rem;
+        font-weight: 500;
+        padding: 6px 28px;
+    }
+    .heading-1{
+        font-size: 1.8rem;
+    }
+    .heading-2{
+        font-weight: 700;
+        font-size:2.2rem;
+    }
+    .heading-3{
+        font-size: 1.8rem;
+    }
+    .heading{
+        margin: 14rem 4rem;
+        line-height: 2.7rem;
+    }  
+}
+@media only screen and (max-width:460px){
+
+    /* header */
+    .heading-1{
+        font-size: 1.3rem;
+    }
+    .heading-2{
+        font-weight: 700;
+        font-size:2rem;
+    }
+    .heading-3{
+        font-size: 1.3rem;
+    }
+    .heading{
+        margin: 14rem 2rem;
+        line-height: 2.4rem;
+    } 
+
+    /* about */
+
+    .about{
+        font-size: 2rem;
+    }
+    
+    /* education */
+    .edu-content{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .education-section{
+        margin: 42px 35px;
+        padding: 3px 16px;
+    }
+    .college{
+        text-align: center;
+    }
+    .study li{
+        text-align: center;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+    .information{
+        margin: auto 4.6rem;
+    }
+
+    /* Project */
+    .cards{
+        margin: auto 30px; 
+    }
+}
