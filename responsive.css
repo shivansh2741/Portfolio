@@ -83,27 +83,34 @@
 
 
     /* navbar */
-
+    nav .sticky{
+        background: rgb(243,97,6);
+        height: 3.6rem;
+        padding-bottom: 0.2rem;
+    }
 
     .icon{
         display: inline-block;
     }
     .content{
-        background-color: rgb(243,97,6);
+        background-color: rgb(243,97,6) ;
+        height: 9rem;
+        text-align: center;
         /* width: 100%; */
-        margin: 20px 10px;
+        margin: 0px 0px;
         /* position: absolute;
         top: 50%; */
         display: none;
         position: absolute;
-        top: 100%;
+        top: 75%;
+        width: 100%;
     }
     .list{
         display: flex;
         flex-direction: column;
-        justify-content:flex-end;
         align-items: center;
         margin: 10px;
+        
     }
     .illustration{
         display: none;
@@ -128,7 +135,7 @@
         margin-left: 70px;
         font-size: 0.7rem;
         text-align: center;
-        padding: 20px 100px;
+        padding: 20px 20px;
         margin-bottom: 4rem;
         
     }
@@ -165,7 +172,7 @@
         font-size: 2.5rem;
     }
     .heading{
-        margin: 14rem 3.6rem;
+        margin: 18rem 3.6rem;
         line-height: 4rem;
     }  
 
@@ -234,6 +241,9 @@
     .about{
         font-size: 2rem;
     }
+    .info{
+        padding: 20px 20px;
+    }
     
     /* education */
     .edu-content{
@@ -242,9 +252,10 @@
         align-items: center;
         
     }
+    
     .education-section{
-        margin: 42px 35px;
-        padding: 3px 16px;
+        margin: 42px 64px;
+        /* padding: 3px 16px; */
     }
     .college{
         text-align: center;
@@ -261,5 +272,37 @@
     /* Project */
     .cards{
         margin: auto 30px; 
+    }
+}
+
+
+
+/* Contacts */
+
+
+@media screen and (max-width: 1040px) {
+    .contact_left {
+        margin-right: 1em;
+        width: 65%;
+    }
+    .contact_right {
+        padding-left: 1em;
+        width: 35%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .contact_flex {
+        flex-wrap: wrap;
+    }
+    .contact_left {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .contact_right {
+        padding-left: 0;
+        width: 100%;
+        border-left: none;
+        border-top: solid rgb(117, 117, 117) 0.6px;
     }
 }

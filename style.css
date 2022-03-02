@@ -391,7 +391,7 @@ Gallery Section
 .copyright p{
     position: relative;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .icons{
   display: flex;
@@ -422,3 +422,125 @@ Gallery Section
     transition: all 1s ease-in;
 } */
 
+
+
+#contact {
+    background-color: rgb(21,21,21);
+    padding: 4em;
+}
+
+.contact_inner {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact h2 {
+    font-size: 2em;
+}
+
+#contact p {
+    letter-spacing: 0.02em;
+    word-spacing: 0.1em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    color: rgb(187, 187, 187);
+}
+
+.contact_flex {
+    display: flex;
+}
+
+.contact_left {
+    width: 60%;
+    margin-right: 2em;
+    box-sizing: border-box;
+}
+
+.contact_right {
+    width: 40%;
+    padding-left: 2em;
+    box-sizing: border-box;
+    border-left: rgb(90, 90, 90) solid 1px;
+}
+
+#contact label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+#contact input, #contact textarea {
+    background-color: rgb(21,21,21);
+    border-radius: 0.25em;
+    border: solid rgb(117, 117, 117) 0.6px;
+    width: 100%;
+    height: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+#contact textarea {
+    height: 12em;
+}
+
+.contact_info {
+    text-align: left;
+    padding: 0;
+}
+
+.contact_info li {
+    margin-bottom: 2em;
+    letter-spacing: 0.03em;
+    line-height: 1.75;
+}
+
+.contact_info h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.contact_info span, .contact_info a {
+    color: rgb(187, 187, 187);
+}
+
+.icons {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.icons li {
+    display: inline-block;
+    padding-right: 0.6em;
+    margin: 0;
+}
+
+.icons a {
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 1040px) {
+    .contact_left {
+        margin-right: 1em;
+        width: 65%;
+    }
+    .contact_right {
+        padding-left: 1em;
+        width: 35%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .contact_flex {
+        flex-wrap: wrap;
+    }
+    .contact_left {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .contact_right {
+        padding-left: 0;
+        width: 100%;
+        border-left: none;
+        border-top: solid rgb(117, 117, 117) 0.6px;
+    }
+}
